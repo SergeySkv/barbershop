@@ -1,8 +1,311 @@
+:link,:visited { 
+  text-decoration:none 
+}
+
+ul,ol { 
+  list-style:none 
+}
+
+h1,h2,h3,h4,h5,h6,pre,code { 
+  font-size:1em; 
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input, figure { 
+  margin:0; padding:0 
+}
+
+a img,:link img,:visited img { 
+  border:none 
+}
+
+address { 
+  font-style:normal 
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-weight: normal;
+  src:url('../fonts/PT_Sans-Narrow-Web-Regular.ttf');
+}
+
+@font-face {
+  font-family: "PTSans";
+  font-style: normal;
+  font-weight: bold;
+  src:url('../fonts/PT_Sans-Narrow-Web-Bold.ttf');
+
+}
+
 body {
-	text-transform: uppercase;
-	font-family: PTSans;
+  font-family: PTSans;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 125%;
+  background: url('../img/background.jpg') no-repeat center top #000;
+  opacity: ;
 }
 
 a {
-	text-decoration: none;
+  color: #fff;
+  text-decoration: none;
+
+}
+
+h2 {
+
+  font-size: 30px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-menu {
+  min-width: 100%;
+  min-height: 72px;
+  background-color: #000;
+ 
+}
+
+.center {
+  width: 940px;
+  margin:0 auto;
+  padding: 0 10px;
+}
+
+
+.main-nav {
+  width: 780px;
+ 
+  float: left;
+}
+.main-nav ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+
+
+}
+
+.main-nav li {
+  display: inline-block;
+  line-height: 20px;
+  font-size: 16px;
+  vertical-align: top;
+
+}
+
+.main-nav a {
+  padding: 26px 20px;
+  display: block;
+
+}
+
+.main-nav .active a {
+  position: relative;
+}
+
+.main-nav .active a:after {
+  content: "";
+  height: 5px;
+  background: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  right: 20px;
+
+}
+
+.user-block a{
+  display: inline-block;
+  position: relative;
+  padding: 26px 20px;
+  font-size: 16px;
+  vertical-align: top;
+  padding-left: 50px;
+
+}
+
+
+.main-nav a:hover{
+  background: #4d4d4d;
+}
+
+.user-block a:hover {
+  background: #4d4d4d;
+
+}
+
+.main-nav .active a:hover {
+  background: none;
+}
+
+.login:before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 22px;
+  width: 18px;
+  height: 18px;
+  background: transparent url("../img/-icon-login.png") no-repeat 0 3px;
+  opacity: .3;
+ }
+
+ .login:hover:before {
+  opacity: 1;
+ }
+
+.logo {
+  width: 368px;
+  height: 204px;
+  margin: 0 auto;
+  margin-top: 57px;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+  color: #fff;
+  font-size: 14px;
+
+
+
+}
+.features-element {
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+
+}
+
+.features-element p {
+  margin: 10px;
+}
+
+.features-element:last-child {
+  margin-right: 0;
+ }
+
+.features-title {
+  position: relative;
+  padding-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+.features-title:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -10px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 20px;
+  height: 20px;
+  background: #fff;
+
+}
+
+.index-content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+  background: url("../img/layer-17-copy.png") no-repeat center, 
+              url("../img/layer-10-copy.png");
+
+ }
+
+.index-content .left-column {
+  width: 330px;
+  float: left;
+ }
+
+.index-content .right-column {
+  float: right;
+  width: 300px;
+ 
+ }
+
+time {
+  display: block;
+  font-family: "Georgia";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  text-transform: none; 
+  margin-bottom: 30px;
+ }
+
+.index-content .news-btn {
+  padding: 10px 30px;
+
+}
+
+.index-content .content-column-title {
+  margin-bottom: 35px;
+
+ }
+
+.index-content p {
+ 
+  font-size: 14px;
+  line-height: 24px;
+ 
+
+ }
+ .index-content img {
+  margin: 7px;
+  margin-bottom: 2px;
+ }
+
+ .content-gallery {
+  background: #fff;
+  margin-bottom: 35px;
+ }
+ .btn {
+  display: inline-block;
+  background: #000; 
+  font-size: 14px;
+  color: #fff;
+  line-height: 
+  padding: 10px 33px;
+  vertical-align: top;
+  text-align: center;
+  border: none;
+  outline: none;
+  text-transform: uppercase; 
+  font-family: "PTSans";
+  font-style: bold;
+  font-weight: 700;
+  line-height: 24px;
+ }
+ .btn:hover {
+  background: #663d15;
+ }
+
+
+ .index-content .prv-btn,
+ .index-content .next-btn {
+  padding: 10px 50px;
+  text-transform: uppercase; 
+  font-family: "PTSans";
+  font-style: bold;
+  margin-right: 20px;
+  float: left;
+
+ }
+ .index-content .next-btn {
+  margin-right: 0;
+ }
+.were-we-btn, .feedback-btn {
+
+  padding: 10px 25px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.feedback-btn {
+  margin-right: none;
 }
