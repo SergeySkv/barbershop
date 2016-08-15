@@ -271,7 +271,7 @@ time {
   font-size: 14px;
   color: #fff;
   line-height: 
-  padding: 10px 33px;
+  padding: 10px 0;
   vertical-align: top;
   text-align: center;
   border: none;
@@ -308,4 +308,111 @@ time {
 }
 .feedback-btn {
   margin-right: none;
+}
+.index-content-form input {
+  width: 106px;
+
+  outline: none;
+  border: 2px solid #000;
+  text-transform: uppercase; 
+  font-family: PTSans;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  float: left;
+  padding: 8px 15px;
+ }
+
+.index-content-form input:nth-child(2n) {
+  margin-right: 0;
+  
+}
+input:focus {
+  border: 2px solid #663d15;
+}
+.index-content .right-column p {
+  margin-bottom: 25px;
+}
+
+
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.4s ease; color: #000;}
+input::-moz-placeholder                {text-indent: 0px;   transition: text-indent 0.4s ease; color: #000;}
+input:-moz-placeholder                 {text-indent: 0px;   transition: text-indent 0.4s ease; color: #000;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.4s ease; color: #000;}
+input:focus::-moz-placeholder          {text-indent: 800px; transition: text-indent 0.4s ease; color: transparent;}
+input:focus::-webkit-input-placeholder {text-indent: 800px; transition: text-indent 0.4s ease; color: transparent;}
+input:focus:-moz-placeholder           {text-indent: 800px; transition: text-indent 0.4s ease; color: transparent;}
+input:focus:-ms-input-placeholder      {text-indent: 800px; transition: text-indent 0.4s ease; color: transparent;}
+
+.form-btn {
+  width: 100%;
+  padding: 10px 0;
+}
+.main-footer {
+  margin-top: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #232323 url("../img/slice-5.png");
+  
+  color: #fff;
+  font-size: 14px;
+}
+
+.main-footer .adress {
+ width: 320px;
+ float: left;
+ margin-right: 80px;
+
+}
+.main-footer .copyright {
+  max-width: 320px;
+  float: right;
+  text-align: center;
+}
+.main-footer .social {
+  float: left;
+  text-align: center;
+}
+
+.social a{
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+
+  float: left;
+  margin-right: 6px;
+}
+.vkontakte {
+  background: #000 url("../img/12-layers.png");
+}
+.facebook {
+  background: #000 url("../img/12-layers.png") -50px 0;
+}
+.instagram {
+  background: #000 url("../img/12-layers.png") 43px 0;
+}
+.vkontakte:hover {
+  background: url("../img/12-layers.png") 0 43px;
+  transition: 0.4s ease;
+}
+.facebook:hover {
+  background: url("../img/12-layers.png") -50px 43px;
+  transition: 0.4s ease;
+
+}
+.instagram:hover {
+  background: url("../img/12-layers.png") 43px 43px;
+  transition: 0.4s ease;
+}
+
+.copyright-btn {
+  padding: 10px 30px;
+}
+.copyright-btn:hover {
+  color: #000;
+  background: #fff;
+ 
 }
