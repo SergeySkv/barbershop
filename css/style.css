@@ -311,7 +311,6 @@ time {
 }
 .index-content-form input {
   width: 106px;
-
   outline: none;
   border: 2px solid #000;
   text-transform: uppercase; 
@@ -411,8 +410,99 @@ input:focus:-ms-input-placeholder      {text-indent: 800px; transition: text-ind
 .copyright-btn {
   padding: 10px 30px;
 }
+
 .copyright-btn:hover {
   color: #000;
   background: #fff;
- 
+}
+
+.personal-area {
+  left: 1040px;
+  top: 120px;
+  width: 460px;
+  position: absolute;
+  background: url("../img/layer-10-copy.png");
+  padding-bottom: 60px;
+  z-index: 999;
+
+}
+.personal-area:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 510px;
+  top: 55px;
+  width: 22px;
+  height: 22px;
+  background: url("../img/cross--16x16--copy.png") no-repeat;
+
+
+}
+.login-form {
+  margin: 0 80px;
+  font-size: 14px;
+  
+
+}
+.login-form input{
+  width: 266px;
+  outline: none;
+  border: 2px solid #000;
+  text-transform: uppercase; 
+  font-family: PTSans;
+  font-style: bold;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000;
+  float: left;
+  padding: 8px 15px;
+}
+
+.login-form legend {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+.login-form p {
+  margin-top: 30px;
+} 
+.login-input {
+  margin-top: 30px;
+  background: url("../img/2-layers.png") no-repeat 265px 12px;
+}
+.password-input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background: url("../img/2-layers.png") no-repeat 265px -37px;
+}
+.login-form a {
+  color: #000;
+  text-decoration: underline;
+  float: right;
+}
+.login-form-btn {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"]+label:before {
+  content: "";
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border: 2px solid #000;
+  margin-right: 12px;
+  margin-top: 2px;
+}
+input[type="checkbox"]+label {
+  vertical-align: top;
+}
+input[type="checkbox"]:checked+label:before {
+  background: url("../img/layer-29-copy.png") no-repeat 4px 4px;
+}
+input[type="checkbox"]+label:hover {
+  color: #663d15;
 }
