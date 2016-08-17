@@ -3,85 +3,91 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
 	<script type="text/javascript" src="js/"></script>
 	<title>Barbershop</title>
 </head>
 <body>
 	<header>
-		<div class="top-menu center clearfix">
-			<nav class="main-nav">
-				<ul>
-					<li><a href="#">Главная</a></li>
-					<li><a href="#">Информация</a></li>
-					<li><a href="#">Новости</a></li>
-					<li class="active"><a href="#">Прайс-лист</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Контакты</a></li>
-				</ul>
-			</nav>
-			<div class="login"></div>
+		<div class="top-menu clearfix">
+			<div class="center">
+				<nav class="main-nav">
+					<ul>
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Информация</a></li>
+						<li><a href="#">Новости</a></li>
+						<li class="active"><a href="#">Прайс-лист</a></li>
+						<li><a href="#">Магазин</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="user-block"><a href="" class="login">Вход</a></div>
+			</div>	
 		</div>
 	</header>	
-	<main>
-		<div class="main-price center clearfix">
-			<h1>BARBERSHOP BORODINSKI — ПРАЙС-ЛИСТ</h1>
-			<div class="bread-crumbs">
-				<ul>
-					<li>ГЛАВНАЯ </li>
-					<li>ПРАЙС-ЛИСТ</li>
+	<main class="main-price">
+		<div class="center">
+			<div class="guid-block clearfix">
+				<h1 class="price-title">BARBERSHOP BORODINSKI — ПРАЙС-ЛИСТ</h1>
+				<ul class="bread-crumbs">
+					<li><a href="">ГЛАВНАЯ</a></li>
+					<li class="current"><a href="">ПРАЙС-ЛИСТ</a></li>
 				</ul>
-			</div>	
-			<p class="">Истинно мужская классика</p>
-			<div class="left-column">
-				<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО ЛУЧШИЕ СРЕДСТВА:</h2>
-				<ul>
-					<li>Baxter of California</li>
-					<li>Mr Natty</li>
-					<li>Suavecito</li>
-					<li>Malin+Goetz</li>
-				</ul>
-				<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
-				<p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
 			</div>
-			<div class="right-column">
-				<h2>ЦЕНЫ НА УСЛУГИ
-					НАШИХ МАСТЕРОВ:</h2>
-				<table>
-					<tr>
-						<td>СТРИЖКА</td>
-						<td>1500 Р.</td>
-					</tr>
-					<tr>
-						<td>СТРИЖКА БОРОДЫ</td>
-						<td>С500 Р.</td>
-					</tr>
-					<tr>
-						<td>НАКРУТКА УСОВ</td>
-						<td>350 Р.</td>
-					</tr>					
-				</table>
- 				<p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+			<div class="inner-content clearfix">		
+				<p class="tagline">Истинно мужская классика</p>
+				<div class="column-left">
+					<h2>МЫ ИСПОЛЬЗУЕМ ТОЛЬКО<br>
+					 ЛУЧШИЕ СРЕДСТВА:</h2>
+					<ul class="brand-list">
+						<li>Baxter of California</li>
+						<li>Mr Natty</li>
+						<li>Suavecito</li>
+						<li>Malin+Goetz</li>
+					</ul>
+					<h2>НЕСКОЛЬКО СЛОВ О НАС:</h2>
+					<p>Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.</p>
+				</div>
+				<div class="column-right">
+					<h2>ЦЕНЫ НА УСЛУГИ
+						НАШИХ МАСТЕРОВ:</h2>
+					<table class="servises-table">
+						<tr>
+							<td>СТРИЖКА</td>
+							<td>1500 Р.</td>
+						</tr>
+						<tr>
+							<td>СТРИЖКА БОРОДЫ</td>
+							<td>500 Р.</td>
+						</tr>
+						<tr>
+							<td>НАКРУТКА УСОВ</td>
+							<td>350 Р.</td>
+						</tr>					
+					</table>
+	 				<p>Наша мастерская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!</p>
+				</div>
 			</div>
-		</div>					
+		</div>						
 	</main>
-	<footer>
-	 	<div class="contacts center clearfix">
-			<div class="adress">
+	<footer class="main-footer shadow">
+	 	<section class="center clearfix">
+			<section class="adress">
 				<p>BARBERSHOP «BORODINSKI»<br>
 				АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>
-				ТЕЛЕФОН: +7 (495) 666-02-666</p.
-			</div>
-			<div class="social">
-				<span class="title">Давайте дружить!</span>
-				<div class="social-icon vkontakte"><a href=""></a></div>
-				<div class="sicial-icon facebook"><a href=""></a></div>
-				<div class="social-icon instagram"><a href=""></a></div>
-			</div>
-			<div class="site-design">
-				<span class="design-title"></span>
-				<a href="">GLUKHANKO.RU</a>
-			</div>
-		</div>
+				ТЕЛЕФОН: +7 (495) 666-02-666</p>
+			</section>
+			<section class="social">
+				<p>Давайте дружить!</p>
+				<a href="" class="social-icon vkontakte"></a>
+				<a href="" class="social-icon facebook"></a>
+				<a href="" class="social-icon instagram"></a>
+			</section>
+			<section class="copyright">
+				<p>Дизайн сайта:</p>
+				<a href="" class="btn copyright-btn">GLUKHANKO.RU</a>
+			</section>
+		</section>
 	</footer>
 </body>
 </html>
